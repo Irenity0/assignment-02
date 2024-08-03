@@ -46,7 +46,7 @@ main > .container {
 }
 
 .title {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
     line-height: 120%;
     margin-bottom: 1rem;
@@ -200,4 +200,29 @@ header {
     font-size: 18px;
     font-weight: 600;
     line-height: 120%;
+}
+
+/* run styles */
+.run {
+    justify-content: space-between;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 2rem;
+}
+
+.run-info {
+    width: 40%;
+}
+
+.run-info p {
+    margin-bottom: 2rem;
+} 
+
+.run-img {
+    width: 40%;
+}
+
+.run-img > img {
+    width: 100%;
+    border-radius: 18px;
 }
