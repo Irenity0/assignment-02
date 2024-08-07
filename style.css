@@ -126,6 +126,10 @@ header {
     padding: 8px 22px;
 }
 
+.menu {
+    display: none;
+}
+
 /* hero styles */
 
 .hero {
@@ -227,8 +231,30 @@ header {
     border-radius: 18px;
 }
 
+/* goal section */
+.extra-info {
+    text-align: center;
+    margin-bottom: 2rem;
+}
 
+.goals-container {
+    border-radius: 1.25rem;
+}
 
+.goal-box {
+    width: auto;
+    background-color: rgb(34, 34, 34);
+    padding: 2.5rem;
+    margin: 1rem;
+    border-radius: 1.25rem;
+}
+
+.goal-box > h3 {
+    color: #E6533C;
+    font-size: 1.75rem;
+    text-align: left;
+    margin-bottom: 0.75rem;
+}
 
 
 
@@ -477,9 +503,6 @@ footer-cols > h4 {
 
 /* small device responsive */
 @media screen and (max-width: 576px) {
-
-
-
     .hide {
         display: none;
     }
@@ -504,6 +527,11 @@ footer-cols > h4 {
     .nav-list {
         display: none;
     }
+
+   .menu {
+    display: block;
+    margin-top: 2rem;
+   }
 
     .hero-content {
         flex-direction: column;
@@ -650,6 +678,11 @@ footer-cols > h4 {
 
     .copyright {
         padding-bottom: 2rem;
+    }
+
+    .goal-grp1,
+    .goal-grp2 {
+        flex-direction: column;
     }
 
 }
